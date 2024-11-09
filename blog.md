@@ -4,4 +4,4 @@ title: Blog
 permalink: /blog/
 ---
 
-# About Page
+# Blog Page
