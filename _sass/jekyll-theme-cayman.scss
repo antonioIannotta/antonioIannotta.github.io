@@ -141,6 +141,29 @@ a {
   }
 }
 
+.main-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center the menu */
+}
+
+.main-menu li {
+  margin: 0 15px; /* Space between menu items */
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: inherit; /* Match the main title color */
+  font-weight: bold; /* Optional: make the links bold */
+}
+
+
+.main-menu a:hover {
+  text-decoration: underline; /* Optional: add an underline on hover */
+}
+
 .project-tagline {
   margin-bottom: 2rem;
   font-weight: normal;
