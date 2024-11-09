@@ -2,6 +2,13 @@
 
 <!-- Setup Google Analytics -->
 {% include head-custom-google-analytics.html %}
+<nav>
+    <ul>
+      {% for item in site.nav_items %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
 
 <!-- You can set your favicon here -->
 <!-- link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}" -->

@@ -3,3 +3,10 @@ description: History, Society and Science
 #show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
+nav_items:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /blog/
